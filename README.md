@@ -65,9 +65,13 @@ driver = new AppiumDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilitie
 Antes de ejecutar las pruebas asegúrate de tener instalado:
 
 ☕ Java 11+
+
 🧱 Gradle
+
 🤖 Appium Server (Version 1.21.0)
+
 📱 Android SDK (recomendable Android Studio)
+
 🔌 Un emulador Android o dispositivo físico conectado
 
 ---
@@ -87,6 +91,7 @@ Antes de ejecutar las pruebas asegúrate de tener instalado:
       Para MacOS/Linux
       ```
       adb shell dumpsys window | grep "mCurrentFocus"
+
 
 
 

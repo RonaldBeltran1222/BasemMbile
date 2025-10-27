@@ -10,24 +10,24 @@ Este proyecto implementa un framework de **automatización de pruebas móviles**
 
 ## 📁 Estructura del Proyecto
 
-src
-├── main
-│ └── java
-│ └── org.example
-│ ├── driver # Clase AppiumAndroidDriver para inicializar el driver
-│ ├── interaccions # Acciones o interacciones personalizadas
-│ ├── models # Modelos de datos
-│ ├── questions # Validaciones o preguntas
-│ ├── tasks # Tareas que representan acciones del usuario
-│ ├── UI # Mapeo de elementos de interfaz (Page Objects)
-│ └── utils # Utilidades generales
-│
-└── test
-├── java
-│ ├── runners # Clases runner de ejecución de los escenarios
-│ └── stepsDefinitions # Definición de pasos de los features
-└── resources
-└── feature # Archivos .feature con los escenarios de prueba (Cucumber)
+    src
+    ├── main
+    │ └── java
+    │ └── org.example
+    │ ├── driver # Clase AppiumAndroidDriver para inicializar el driver
+    │ ├── interaccions # Acciones o interacciones personalizadas
+    │ ├── models # Modelos de datos
+    │ ├── questions # Validaciones o preguntas
+    │ ├── tasks # Tareas que representan acciones del usuario
+    │ ├── UI # Mapeo de elementos de interfaz (Page Objects)
+    │ └── utils # Utilidades generales
+    │
+    └── test
+    ├── java
+    │ ├── runners # Clases runner de ejecución de los escenarios
+    │ └── stepsDefinitions # Definición de pasos de los features
+    └── resources
+    └── feature # Archivos .feature con los escenarios de prueba (Cucumber)
 
 
 ## ⚙️ Configuración del Driver (AppiumAndroidDriver)
@@ -85,3 +85,4 @@ Antes de ejecutar las pruebas asegúrate de tener instalado:
       Para MacOS/Linux
       ```
       adb shell dumpsys window | grep "mCurrentFocus"
+

@@ -87,6 +87,7 @@ Antes de ejecutar las pruebas asegúrate de tener instalado:
      ```
      adb devices     
 2. Ejecutar el comando para optener El Package y el Activity:
+   
      Para Windows
       ```
       adb shell dumpsys window | findstr "mCurrentFocus"
@@ -94,5 +95,6 @@ Antes de ejecutar las pruebas asegúrate de tener instalado:
       Para MacOS/Linux
       ```
       adb shell dumpsys window | grep "mCurrentFocus" 
+
 
 

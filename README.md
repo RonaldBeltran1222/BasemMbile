@@ -48,7 +48,7 @@ driver = new AppiumDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilitie
 ```
 ⚠️ Importante: Personaliza los valores según tu dispositivo/emulador antes de ejecutar las pruebas.
 ---
-### 🧩 Dependencias principales (`build.gradle`)
+### 🧩 Dependencias principales (`build.gradle`) - estas dependencias son las del proyecto base se pueden modificar su version a gusto
 | Librería               | Versión   | Descripción                         |
 |------------------------|-----------|-------------------------------------|
 | Serenity BDD JUnit     | 2.0.80   | Framework de reportes y ejecución    |
@@ -87,6 +87,7 @@ Antes de ejecutar las pruebas asegúrate de tener instalado:
       Para MacOS/Linux
       ```
       adb shell dumpsys window | grep "mCurrentFocus"
+
 
 
 

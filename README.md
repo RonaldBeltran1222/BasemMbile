@@ -80,20 +80,12 @@ Antes de ejecutar las pruebas asegúrate de tener instalado:
 📱 Si se tiene instalado Andorid Studio - Se abre la terminal(Alt + F12):
   1. se verifica que el emulador esta conectado:
      ```
-     adb devices
-     
+     adb devices     
   2. Ejecutar el comenando para optener los capabilitis necesarios
      Para Windows
       ```
       adb shell dumpsys window | findstr "mCurrentFocus"
-
       ```
       Para MacOS/Linux
       ```
       adb shell dumpsys window | grep "mCurrentFocus"
-
-
-
-
-
-

@@ -95,6 +95,3 @@ Antes de ejecutar las pruebas asegúrate de tener instalado:
       Para MacOS/Linux
       ```
       adb shell dumpsys window | grep "mCurrentFocus" 
-
-
-

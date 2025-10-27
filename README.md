@@ -50,14 +50,14 @@ driver = new AppiumDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilitie
 ---
 ### 🧩 Dependencias principales (`build.gradle`)
 
-| Librería              | Versión | Descripción                          |
-|------------------------|----------|--------------------------------------|
-| Serenity BDD JUnit     | 2.0.80   | Framework de reportes y ejecución    |
-| Serenity BDD Cucumber  | 1.9.45   | Integración con Cucumber             |
-| Serenity Core          | 2.0.80   | Núcleo de Serenity                   |
-| Appium Java Client     | 7.5.1    | Controlador Appium                   |
-| AssertJ                | 3.24.2   | Librería para aserciones             |
-| JUnit 5                | 5.8.1    | Framework de pruebas                 |
+    | Librería              | Versión | Descripción                            |
+    |------------------------|----------|--------------------------------------|
+    | Serenity BDD JUnit     | 2.0.80   | Framework de reportes y ejecución    |
+    | Serenity BDD Cucumber  | 1.9.45   | Integración con Cucumber             |
+    | Serenity Core          | 2.0.80   | Núcleo de Serenity                   |
+    | Appium Java Client     | 7.5.1    | Controlador Appium                   |
+    | AssertJ                | 3.24.2   | Librería para aserciones             |
+    | JUnit 5                | 5.8.1    | Framework de pruebas                 |
 
 
 ---
@@ -88,5 +88,6 @@ Antes de ejecutar las pruebas asegúrate de tener instalado:
       Para MacOS/Linux
       ```
       adb shell dumpsys window | grep "mCurrentFocus"
+
 
 

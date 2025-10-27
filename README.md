@@ -78,14 +78,19 @@ Antes de ejecutar las pruebas asegúrate de tener instalado:
 
 ## 🚀 Para poder optener el Package y el Activity de la app a probar
 📱 Si se tiene instalado Andorid Studio - Se abre la terminal(Alt + F12):
+
+- Si no te reconoce adb, ejecuta este comando para entrar a su carpeta:
+  ```
+  cd %USERPROFILE%\AppData\Local\Android\Sdk\platform-tools
+  ```
   1. se verifica que el emulador esta conectado:
      ```
      adb devices     
-  2. Ejecutar el comenando para optener los capabilitis necesarios
+  2. Ejecutar el comando para optener los capabilitis necesarios
      Para Windows
       ```
       adb shell dumpsys window | findstr "mCurrentFocus"
       ```
       Para MacOS/Linux
       ```
-      adb shell dumpsys window | grep "mCurrentFocus"
+      adb shell dumpsys window | grep "mCurrentFocus" 

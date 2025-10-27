@@ -83,10 +83,10 @@ Antes de ejecutar las pruebas asegúrate de tener instalado:
   ```
   cd %USERPROFILE%\AppData\Local\Android\Sdk\platform-tools
   ```
-1. se verifica que el emulador esta conectado:
+1. Se verifica que el emulador esta conectado:
      ```
      adb devices     
-2. Ejecutar el comando para optener los capabilitis necesarios
+2. Ejecutar el comando para optener El Package y el Activity:
      Para Windows
       ```
       adb shell dumpsys window | findstr "mCurrentFocus"
@@ -94,4 +94,5 @@ Antes de ejecutar las pruebas asegúrate de tener instalado:
       Para MacOS/Linux
       ```
       adb shell dumpsys window | grep "mCurrentFocus" 
+
 
